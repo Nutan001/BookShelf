@@ -108,7 +108,6 @@ a {
 form > a {
 	font-size: 0.85em;
 }
-
 .input-suggestion {
 	position: relative;
 	float: left;
@@ -127,6 +126,9 @@ form > a {
 .input-suggestion > .content {
 	padding: 15px;		
 	color: #789;
+}
+.error-input {
+	background: #F88;
 }
 
 
