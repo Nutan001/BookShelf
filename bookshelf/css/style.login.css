@@ -12,18 +12,20 @@ a {
 }
 .main-body {
 	box-sizing: border-box;
-	width: 100%;	
+	width: 100%;		
 }
 .input-box {
 	box-sizing: border-box;
 	position: relative;
 	float: left;
+	background: #f8f8f8;
 	min-height: 500px;
 	width: 60%;
 	margin-left: 20%;
 	margin-top: 60px;
 	box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.05);
 	transition: box-shadow 0.3s;
+	margin-bottom: 20px;	
 }
 .input-box:hover { 
 	box-shadow: 0px 0px 20px 15px rgba(0,0,0,0.051);	
@@ -48,7 +50,7 @@ a {
 	box-sizing: border-box;	
 	background: #efefef;
 	width: 60%;
-	height: 450px;
+	min-height: 450px;
 }
 .input-field {	
 	box-sizing: border-box;	
@@ -114,7 +116,7 @@ form > a {
 	box-sizing: border-box;
 	background: #f8f8f8;
 	width: 40%;
-	height: 450px;
+	height: 100%;
 }
 .input-suggestion > .tip {
 	text-align: center;
@@ -127,9 +129,7 @@ form > a {
 	padding: 15px;		
 	color: #789;
 }
-.error-input {
-	background: #F88;
-}
+
 
 
 /*	This is Second Mode 	*/
